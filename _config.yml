@@ -1,28 +1,40 @@
-name: Jaden
 favicon: null
-layout_spectrum: 0.9952
-typography_spectrum: 0.7419
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Jaden
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.9038569920230657
+  brandStrength: 0.9296455
+  lightness: 0.1745043436530977
   brandColors:
     - '#3C493F'
     - '#7E8D85'
     - '#B3BFB8'
     - '#F0F7F4'
     - '#A2E3C4'
-  brandStrength: 0.9836980770342052
-  lightness: 0.17450434365309775
-  saturation: 0.9038569920230657
-  rhythmicContrast: 0.17955830693244934
-purpose: []
+  rhythmicContrast: 0.1795583069324493
+typography_spectrum: 0.7419
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.9952
+analytics:
+  twitter: null
+  google: null
+  facebook: null
