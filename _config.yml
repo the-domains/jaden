@@ -1,8 +1,7 @@
-layout_spectrum: 0.5064447
-opengraph:
-  image: null
-  type: null
-  appId: null
+name: Jaden
+favicon: null
+layout_spectrum: 0.99861
+typography_spectrum: 0.7419
 collections:
   - index:
       path: /
@@ -15,26 +14,27 @@ collections:
       number: 10
     permalink:
       path: '/:title/'
-purpose: []
+cta:
+  domain: null
+  bucket: null
+  version: null
+analytics:
+  google: null
+  facebook: null
+  twitter: null
+opengraph:
+  image: null
+  type: null
+  appId: null
 color:
-  saturation: 0.625
-  brandStrength: 0.5
-  rhythmicContrast: 0.1795583069324493
   brandColors:
     - '#ffffff'
     - '#0b1024'
     - '#8ea5cf'
     - '#39393b'
     - '#5d6373'
+  brandStrength: 0.5
   lightness: 0.5
-typography_spectrum: 0.7419
-cta:
-  bucket: null
-  version: null
-  domain: null
-analytics:
-  twitter: null
-  google: null
-  facebook: null
-favicon: null
-name: Jaden
+  saturation: 0.625
+  rhythmicContrast: 0.1795583069324493
+purpose: []
